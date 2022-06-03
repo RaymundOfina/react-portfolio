@@ -9,7 +9,7 @@ main {
   --tertiary: #b12704;
   --light: #fafafa;
   --dark: #799fba;
-  --darker: #1f3b60;
+  --darker: #7fafee;
   --alpha: rgba(255, 255, 255, 0.7);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -23,7 +23,7 @@ main {
 
 html,
 body {
-  min-height: 100%;
+  min-height: 80%;
 }
 
 body {
@@ -185,7 +185,7 @@ header img {
 
 nav {
   position: relative;
-  font-family: 'Aladin';
+  font-family: 'ariel';
   font-size: 2.5rem;
   margin: 30px 20px;
 }
@@ -194,9 +194,11 @@ nav a:hover {
   text-decoration: none;
 }
 
+/* Nav Highlight */
+
 nav li {
   cursor: pointer;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 10px rgba(90, 139, 238, 0.5);
   margin: 0 50px;
 }
 
