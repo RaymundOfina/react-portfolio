@@ -6,28 +6,28 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surf-report',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'Due',
+      description: 'Due Final Project',
+      link: "https://ofina-final-project.herokuapp.com",
+      repo: "https://github.com/RaymundOfina/due"
     },
     {
-      name: 'pastel-puzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'Regex ',
+      description: 'Regex Tutorial',
+      link: "https://gist.github.com/RaymundOfina/65685745760be957422edcbb21fa5253",
+      repo: "https://gist.github.com/RaymundOfina/65685745760be957422edcbb21fa5253"
     },
     {
       name: 'run-buddy',
       description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      link: "https://raymundofina.github.io/run-buddy/",
+      repo: "https://github.com/RaymundOfina/run-buddy"
     },
     {
-      name: 'led-wall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'Note Taker',
+      description: '',
+      link: "https://raymundofina.github.io/note-taker/",
+      repo: "https://github.com/RaymundOfina/note-taker"
     },
     {
       name: 'calculator',
